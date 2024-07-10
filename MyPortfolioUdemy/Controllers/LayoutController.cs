@@ -1,14 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyPortfolioUdemy.DAL.Context;
 
 namespace MyPortfolioUdemy.Controllers
 {
-	public class DefaultController : Controller
+	public class LayoutController : Controller
 	{
 		public IActionResult Index()
 		{
-			
-
 			return View();
 		}
 	}
