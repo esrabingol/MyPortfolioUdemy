@@ -7,8 +7,6 @@ namespace MyPortfolioUdemy.Controllers
 	{
 		public IActionResult Index()
 		{
-			
-
 			return View();
 		}
 	}
